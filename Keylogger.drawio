@@ -1,0 +1,197 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.3">
+  <diagram name="Page-1" id="rx-q9I_0SVCDWkhoD_Ob">
+    <mxGraphModel dx="2276" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ecRen46PVBLUq77KT6qA-1" value="Eingabe/Ausgabe" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecRen46PVBLUq77KT6qA-3" value="Start/Ende" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-390" y="-20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecRen46PVBLUq77KT6qA-5" value="Teilprozess" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-400" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ecRen46PVBLUq77KT6qA-6" value="Legende" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Dc3zGWe1Z0FF-lccn8q-7" value="Vorgang" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Dc3zGWe1Z0FF-lccn8q-38" value="Legende&lt;div style=&quot;&quot;&gt;Titel&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;K&lt;/span&gt;eylogger&lt;/div&gt;&lt;div&gt;Autor&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;R&lt;/span&gt;afael Hertling&lt;/div&gt;&lt;div&gt;Datum&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;0&lt;/span&gt;4.06.2025&lt;/div&gt;&lt;div&gt;Dokument &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Keylogger.drawio&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#b85450;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-440" y="660" width="200" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="Start" link="rafael_hertling@sluz.ch" id="YtH0sUOfFItZl8o3Unt3-1">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="440" y="-140" width="100" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YtH0sUOfFItZl8o3Unt3-5" value="USB Stick erkannt?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="440" y="430" width="100" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="Ende" id="4V90ZgvpTtMObvt6ffLN-1">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+            <mxGeometry x="440" y="800" width="100" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="4V90ZgvpTtMObvt6ffLN-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YtH0sUOfFItZl8o3Unt3-1" target="E9yaG-lEW6pKUwCo42SB-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="475" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-1" value="Gerät wird gestartet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="430" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-3" value="USB Stick eingesteckt" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="440" y="10" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E9yaG-lEW6pKUwCo42SB-3" target="E9yaG-lEW6pKUwCo42SB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="280" as="sourcePoint" />
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="E9yaG-lEW6pKUwCo42SB-1" target="iyLmxqDZrcK7473m3GBw-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="730" as="sourcePoint" />
+            <mxPoint x="490" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="480" as="sourcePoint" />
+            <mxPoint x="650" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-7" value="Ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E9yaG-lEW6pKUwCo42SB-6" vertex="1" connectable="0">
+          <mxGeometry x="0.4286" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YtH0sUOfFItZl8o3Unt3-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-10" value="Nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="E9yaG-lEW6pKUwCo42SB-9" vertex="1" connectable="0">
+          <mxGeometry x="0.4286" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-11" value="Keylog.txt wird in Dokumentordner gespeichert" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="280" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-12" value="Keylog.txt wird auf USB Stick gespeichert" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="600" y="580" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="E9yaG-lEW6pKUwCo42SB-11" target="iyLmxqDZrcK7473m3GBw-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="750" as="sourcePoint" />
+            <mxPoint x="430" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="E9yaG-lEW6pKUwCo42SB-12" target="iyLmxqDZrcK7473m3GBw-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="760" as="sourcePoint" />
+            <mxPoint x="550" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E9yaG-lEW6pKUwCo42SB-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="iyLmxqDZrcK7473m3GBw-5" target="4V90ZgvpTtMObvt6ffLN-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="860" as="sourcePoint" />
+            <mxPoint x="510" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-1" value="Script wird ausgeführt" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyLmxqDZrcK7473m3GBw-1" target="YtH0sUOfFItZl8o3Unt3-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-3" value="Entscheid" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="550" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-5" value="Keyinput registrieren" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="430" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-6" value="Keyinput registrieren" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-9" value="Keyinput" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-10" value="Keyinput wird mit Timespam in Keylog.txt gespeichert" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-11" value="Gerät heruntergefahren?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="420" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-12" value="Script wird beendet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="iyLmxqDZrcK7473m3GBw-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="90" as="sourcePoint" />
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyLmxqDZrcK7473m3GBw-9" target="iyLmxqDZrcK7473m3GBw-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-100" y="290" as="sourcePoint" />
+            <mxPoint x="-50" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="iyLmxqDZrcK7473m3GBw-10" target="iyLmxqDZrcK7473m3GBw-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="400" as="sourcePoint" />
+            <mxPoint x="40" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iyLmxqDZrcK7473m3GBw-11" target="iyLmxqDZrcK7473m3GBw-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-140" y="540" as="sourcePoint" />
+            <mxPoint x="-90" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-22" value="Ja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iyLmxqDZrcK7473m3GBw-17">
+          <mxGeometry x="-0.35" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="iyLmxqDZrcK7473m3GBw-11" target="iyLmxqDZrcK7473m3GBw-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="510" as="sourcePoint" />
+            <mxPoint x="-140" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="470" />
+              <mxPoint x="-190" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iyLmxqDZrcK7473m3GBw-24" value="Nein" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iyLmxqDZrcK7473m3GBw-23">
+          <mxGeometry x="-0.0083" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
